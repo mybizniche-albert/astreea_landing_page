@@ -1,0 +1,76 @@
+$font_weights: (
+    fw-extralight: 200,
+    fw-light: 300,
+    fw-regular: 400,
+    fw-medium: 500,
+    fw-semibold: 600,
+    fw-bold: 700,
+    fw-extrabold: 800,
+    fw-black: 900
+);
+@each $id, $value in $font_weights {
+    .#{$id}{
+        font-weight: $value !important;
+    }
+}
+
+
+$text_colors: (
+    tc-primary: $color-primary,
+    tc-secondary: $color-secondary,
+    tc-dark: $color-dark,
+    tc-white: #fff
+);
+@each $id, $value in $text_colors {
+    .#{$id}{
+        color: $value !important;
+    }
+}
+
+
+$background_colors: (
+    bc-primary: $color-primary,
+    bc-secondary: $color-secondary,
+    bc-dark: $color-dark
+);
+@each $id, $value in $background_colors {
+    .#{$id}{
+        background-color: $value !important;
+    }
+}
+
+
+.td-underline{ text-decoration: underline !important }
+
+.full-h{ min-height: 100vh }
+
+.text-large{ font-size: 26px }
+
+
+@for $i from 1 through 20{
+    .order-#{$i}{
+        order: #{$i} !important;
+    }
+}
+
+
+/* Mobile to Desktop
+**************************/
+@include media(min-width, 1024px){
+    @for $i from 1 through 20{
+        .order-lg-#{$i}{
+            order: #{$i} !important;
+        }
+    }
+}
+
+
+/* Desktop to Mobile
+**************************/
+@include media(max-width, 1536px){
+    .text-large{ font-size: 24px }
+}
+
+@include media(max-width, 1023px){
+    .text-large{ font-size: 21px }
+}

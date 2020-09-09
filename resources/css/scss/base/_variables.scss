@@ -1,0 +1,51 @@
+$color-primary: #0777a7;
+$color-secondary: #47b6e3;
+$color-success: #3adb76;
+$color-alert: #e23e35;
+$color-warning: #cc8b00;
+$color-dark: #333;
+$color-light: #CCC;
+$color-black: #000;
+$color-white: #fff;
+$color-grey: #777777;
+$color-light-grey: #828282;
+$color-light-blue: #83c8d7;
+
+
+$body-font-family: "aktiv-grotesk-condensed",sans-serif;
+$body-font-size: 20px;
+
+$heading-font-family: "aktiv-grotesk-condensed",sans-serif;
+
+$paragraph-font-family: "aktiv-grotesk-condensed",sans-serif;
+$paragraph-font-size: 20px;
+$paragraph-line-height: 1.4;
+$paragraph-color: $color-dark;
+$paragraph-font-weight: 400;
+
+$button-font-family: "aktiv-grotesk-condensed",sans-serif;
+
+
+/* FOUNDATION VARIABLES */
+$grid-container: 1440px;
+
+$foundation-palette: (
+  primary: $color-primary,
+  secondary: $color-secondary,
+  success: $color-success,
+  warning: $color-warning,
+  alert: $color-alert,
+) !default;
+
+$button-background: $color-primary;
+$button-radius: 3px;
+$button-sizes: (
+    tiny: 0.6rem,
+    small: 0.75rem,
+    defaut: 16px, // default: 0.9rem,
+    large: 1.25rem
+) !default;
+$button-padding: 15.4px 27px;
+$button-font-weight: 500 !default;
+
+$input-shadow: none;
