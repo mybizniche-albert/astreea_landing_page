@@ -176,7 +176,7 @@
             background: $color-white;
             i.icn-arrow-right.white{
                 &:before{
-                    content: url('../img/icn-arrow-red.svg');
+                    content: url('../img/icn-arrow-red.png');
                 }
             }
             
@@ -218,7 +218,7 @@
         }
 
         &:after{
-            content: url('../img/icn-arrow-point-to-call-white.svg');
+            content: url('../img/icn-arrow-point-to-call-white.png');
             position: absolute;
             bottom: 0;
             right: -35px;
@@ -228,14 +228,14 @@
 
         &.dark{
             &:after{
-                content: url('../img/icn-arrow-point-to-call-black.svg');
+                content: url('../img/icn-arrow-point-to-call-black.png');
             }
         }
 
         &:hover{
             background: $color-white;
             i.icn-phone.white{
-                content: url('../img/icn-phone-red-big.svg');
+                content: url('../img/icn-phone-red-big.png');
             }
             p{
                 color: $color-black;
@@ -245,7 +245,7 @@
             }
 
             &:after{
-                content: url('../img/icn-arrow-point-to-call-red.svg');
+                content: url('../img/icn-arrow-point-to-call-red.png');
             }
         }
 
@@ -271,13 +271,13 @@
             padding: 0 15px;
             max-width: 100%;
             &:after{
-                content: url(../img/icn-arrow-point-to-call-white-small.svg);
+                content: url(../img/icn-arrow-point-to-call-white-small.png);
                 right: 25px;
                 top: -15px;
             }
             &:hover{
                 &:after{
-                    content: url(../img/icn-arrow-point-to-call-red-small.svg);
+                    content: url(../img/icn-arrow-point-to-call-red-small.png);
                 }
             }
             i{
@@ -300,7 +300,7 @@
             i{
                 padding: 20px;
                 &:before{
-                    content:url('../img/icn-arrow-white-small.svg');
+                    content:url('../img/icn-arrow-white-small.png');
                 }
             }
             &:hover{
@@ -308,7 +308,7 @@
                     display: none;
                 }
                 i{
-                    content:url('../img/icn-arrow-red-small.svg');
+                    content:url('../img/icn-arrow-red-small.png');
                 }
             }
         }
@@ -328,11 +328,11 @@
                 height: auto;
                 padding-top: 0px;
                 padding-bottom: 18px;
-                content: url(../img/icn-phone-white-small.svg);
+                content: url(../img/icn-phone-white-small.png);
             }
             &:hover{
                 i.icn-phone.white{
-                    content: url(../img/icn-phone-red-small.svg);
+                    content: url(../img/icn-phone-red-small.png);
                 }
             }
             p{
@@ -364,44 +364,44 @@
 }
 
 .icn-phone{
-    content: url('../img/icn-phone-red.svg');
+    content: url('../img/icn-phone-red.png');
 }
 
 .icn-phone.white{
-    content: url('../img/icn-phone-white-big.svg');
+    content: url('../img/icn-phone-white-big.png');
 }
 .icn-phone.red{
-    content: url('../img/icn-phone-red-big.svg');
+    content: url('../img/icn-phone-red-big.png');
 }
 
 .icn-arrow-right{
     &:before{
-        content: url('../img/icn-arrow-red.svg');
+        content: url('../img/icn-arrow-red.png');
     }
 }
 
 .icn-arrow-right.white{
     &:before{
-        content: url('../img/icn-arrow-white.svg');
+        content: url('../img/icn-arrow-white.png');
     }
 }
 
 .icn-check-circle{
-    content: url('../img/icn-check-circle.svg');
+    content: url('../img/icn-check-circle.png');
 }
 
 .icn-slider-arrow-left{
-    content: url('../img/icn-arrow-light-gray.svg');
+    content: url('../img/icn-arrow-light-gray.png');
     &:hover{
-        content: url('../img/icn-arrow-dark-gray.svg');
+        content: url('../img/icn-arrow-dark-gray.png');
         transform: rotate(180deg);
     }
 }
 .icn-slider-arrow-right{
-    content: url('../img/icn-arrow-light-gray.svg');
+    content: url('../img/icn-arrow-light-gray.png');
     transform: rotate(180deg);
     &:hover{
-        content: url('../img/icn-arrow-dark-gray.svg');
+        content: url('../img/icn-arrow-dark-gray.png');
         transform: rotate(360deg);
     }
 }

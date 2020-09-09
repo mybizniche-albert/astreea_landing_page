@@ -377,17 +377,17 @@
     padding: 40px 20px 75px;
     position: relative;
     overflow: hidden;
-    //background: url('../img/stripe2.svg') top right no-repeat;
+    //background: url('../img/stripe2.png') top right no-repeat;
     margin-bottom: 10px;
     &:after{
-        content: url(../img/stripe2.svg);
+        content: url(../img/stripe2.png);
         position: absolute;
         right: 0;
         bottom: -8px;
         z-index: -1;
     }
     // &:after{
-    //     content: url('../img/stripe2.svg');
+    //     content: url('../img/stripe2.png');
     //     position: absolute;
     //     right: 0;
     //     top: -40px;
@@ -414,7 +414,7 @@
                     content:'';
                 }
                 &:after{
-                    content: url('../img/icon-feather-zoom-in.svg');
+                    content: url('../img/icon-feather-zoom-in.png');
                     position: absolute;
                     top: 0;
                     left: 0;
@@ -524,7 +524,7 @@
     @include media(max-width, 1023px){
         background: none;
         &:after{
-            content: url('../img/stripe2.svg');
+            content: url('../img/stripe2.png');
             right: -100px;
             top: -300px;
             z-index: -1;
@@ -538,7 +538,7 @@
     @include media(max-width, 639px){
         
         &:after{
-            content: url('../img/stripe2-mobile.svg');
+            content: url('../img/stripe2-mobile.png');
             right: 0;
             top: 15px;
             transform: none;
@@ -1224,7 +1224,7 @@
     background:  url('../img/img-bg-personalize-astreea-hand-sanitizer.jpg') top no-repeat;
     background-size: auto 72%;
     &:before{
-        content: url(../img/stripe1.svg);
+        content: url(../img/stripe1.png);
         position: absolute;
         left: -180px;
         top: 0;
@@ -1237,7 +1237,7 @@
     
     .sec-why-sidebar__wrap{
         &:after{
-            content: url(../img/stripe1.svg);
+            content: url(../img/stripe1.png);
             position: absolute;
             right: -280px;
             bottom: -8px;
@@ -1439,7 +1439,7 @@
         background-position-y: bottom;
         background-position-x: center;
         &:before{
-            content: url('../img/stripe3-mobile.svg');
+            content: url('../img/stripe3-mobile.png');
             left: -25px;
             top: 20px;
         }
