@@ -120,12 +120,12 @@
                     // Arrows
                     arrowLeft:
                     '<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left" title="{{PREV}}">' +
-                    '<div><img src="/wp-content/themes/mybizniche/resources/img/icn-arrow-white.svg" style="transform:rotate(180deg);"/></div>' +
+                    '<div><img src="assets/img/icn-arrow-white.png" style="transform:rotate(180deg);"/></div>' +
                     "</button>",
 
                     arrowRight:
                     '<button data-fancybox-next class="fancybox-button fancybox-button--arrow_right" title="{{NEXT}}">' +
-                    '<div><img src="/wp-content/themes/mybizniche/resources/img/icn-arrow-white.svg"/></div>' +
+                    '<div><img src="assets/img/icn-arrow-white.png"/></div>' +
                     "</button>",
                 }
             });
