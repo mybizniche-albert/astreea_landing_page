@@ -5,7 +5,7 @@
             app.onResize();
         },	
         onLoad: function(){
-            $(document).foundation();
+            //$(document).foundation();
             
             app.sliderFunctions();
             app.fancyBoxFunction();
@@ -58,7 +58,7 @@
 
 				return false;
 
-			});
+			}, {passive: true});
 
 		},
         sliderFunctions: function(){
@@ -143,7 +143,7 @@
                     if (e.type === "focusout" && $(this).val() == ""){
                         $(this).closest('.form-field__wrap').removeClass('focus');
                     }
-                });
+                }, {passive: true});
 			}
         }
     }
