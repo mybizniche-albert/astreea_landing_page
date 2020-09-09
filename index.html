@@ -334,13 +334,14 @@
                                     Sanitizing Stations for your company.</p>
                             </div>
                             <div class="cell large-6">
-                                <form id="wpcf7-form" action="/#wpcf7-f5-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+                                <form id="wpcf7-form" action="" method="post" class="wpcf7-form init" >
+                                    <input type="hidden" value="" name="g-response">
                                     <div class="grid-x grid-padding-x">
                                         <div class="cell large-6 form-margin-right">
                                             <div class="form-field__wrap">
                                                 <label for="mbn-fname">First Name</label>
                                                 <span class="wpcf7-form-control-wrap mbn-fname">
-                                                    <input type="text" name="mbn-fname" value="" size="40"
+                                                    <input required type="text" name="mbn-fname" value="" size="40"
                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                         id="mbn-fname" aria-required="true" aria-invalid="false">
                                                 </span>
@@ -350,7 +351,7 @@
                                             <div class="form-field__wrap">
                                                 <label for="mbn-lname">Last Name</label>
                                                 <span class="wpcf7-form-control-wrap mbn-lname">
-                                                    <input type="text" name="mbn-lname" value="" size="40"
+                                                    <input required type="text" name="mbn-lname" value="" size="40"
                                                         class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                         id="mbn-lname" aria-required="true" aria-invalid="false">
                                                 </span>
@@ -360,7 +361,7 @@
                                     <div class="form-field__wrap">
                                         <label for="mbn-email">Email Address</label>
                                         <span class="wpcf7-form-control-wrap mbn-email">
-                                            <input type="email" name="mbn-email" value="" size="40"
+                                            <input required type="email" name="mbn-email" value="" size="40"
                                                 class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
                                                 id="mbn-email" aria-required="true" aria-invalid="false">
                                         </span>
@@ -368,7 +369,7 @@
                                     <div class="form-field__wrap">
                                         <label for="mbn-phone">Phone Number</label>
                                         <span class="wpcf7-form-control-wrap mbn-phone">
-                                            <input type="text" name="mbn-phone" value="" size="40"
+                                            <input required type="text" name="mbn-phone" value="" size="40"
                                                 class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
                                                 id="mbn-phone" aria-required="true" aria-invalid="false">
                                         </span>
@@ -376,7 +377,7 @@
                                     <div class="form-field__wrap">
                                         <label for="mbn-message">Message</label>
                                         <span class="wpcf7-form-control-wrap mbn-message">
-                                            <textarea name="mbn-message" cols="40" rows="4"
+                                            <textarea required name="mbn-message" cols="40" rows="4"
                                                 class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                                                 id="mbn-message" aria-required="true" aria-invalid="false"></textarea>
                                         </span>
@@ -704,7 +705,8 @@
     <script type='text/javascript' src='resources/vendor/fancybox/jquery.fancybox.min.js' id='fancybox-js'></script>
 
     <script type='text/javascript' src='resources/js/app.js' id='app-js'></script>
-
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfBuskZAAAAAAyja926iMPRDXhxSeB0EENzuOkE"></script>
+    <script type='text/javascript' src='assets/js/form.js' id='app-js'></script>
 </body>
 
 </html>
