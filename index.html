@@ -57,15 +57,26 @@
 
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//www.googletagmanager.com' />
+    <link rel='dns-prefetch' href='//use.typekit.net' />
+    <link rel='dns-prefetch' href='//fonts.gstatic.com' />
 
-    <link rel='stylesheet' id='font-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:400&display=swap'
+    <link rel='preload' id='font-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:400&display=swap'
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel='stylesheet' id='slick-css' href='assets/vendor/slick/slick.css' />
+    <link rel='stylesheet' id='slick-theme-css' href='assets/vendor/slick/slick-theme.css'/>
+    <link rel="preload" id='fancybox-css' href='assets/vendor/fancybox/jquery.fancybox.min.css' as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <link rel='stylesheet' href='assets/css/critical.css' type='text/css' media='all' />
+    <link rel="preload" href="assets/css/app.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel='stylesheet' id='font-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:400&display=swap'
         type='text/css' media='all' />
-    <link rel='stylesheet' id='slick-css' href='assets/vendor/slick/slick.css' type='text/css' media='all' />
-    <link rel='stylesheet' id='slick-theme-css' href='assets/vendor/slick/slick-theme.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='fancybox-css' href='assets/vendor/fancybox/jquery.fancybox.min.css' type='text/css'
-        media='all' />
-    <link rel='stylesheet' id='app-css' href='assets/css/app.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='slick-css' href='assets/vendor/slick/slick.css' type='text/css' media='all' />
+        <link rel='stylesheet' id='slick-theme-css' href='assets/vendor/slick/slick-theme.css' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='fancybox-css' href='assets/vendor/fancybox/jquery.fancybox.min.css' type='text/css'
+            media='all' />
+        <link rel='stylesheet' id='app-css' href='assets/css/app.css' type='text/css' media='all' />
+    </noscript>
 
     <!-- Facebook Pixel Code -->
     <script>
@@ -108,10 +119,10 @@
     <!-- End LinkedIn Pixel Code -->
 
     <!-- CallRail PPC Lander Script -->
-    <script type="text/javascript" src="//cdn.callrail.com/companies/734270004/a92945b4054d39366d4e/12/swap.js"></script>
+    <script type="text/javascript" src="//cdn.callrail.com/companies/734270004/a92945b4054d39366d4e/12/swap.js" defer></script>
 
     <!-- CallRail FB Script -->
-    <script type="text/javascript" src="//cdn.callrail.com/companies/734270004/a92945b4054d39366d4e/12/swap.js"></script>
+    <script type="text/javascript" src="//cdn.callrail.com/companies/734270004/a92945b4054d39366d4e/12/swap.js" defer></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176331373-1"></script>
